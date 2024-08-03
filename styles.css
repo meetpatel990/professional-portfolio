@@ -224,9 +224,9 @@ span{
     z-index: 1000;
 }
 
- .nav :hover{
+ /* .nav :hover{
   color: #7e7e7e;
-}
+} */
 
   .footer-nav-mobile .nav {
     display: flex;
