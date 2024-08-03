@@ -244,7 +244,8 @@ span{
     text-decoration: none;
     display: flex;
     flex-direction: column;
-    font-size: 3.07vh;  }
+    font-size: 0.72rem;
+  }
 
   .footer-nav-mobile .nav-link i {
     margin-right: 5px;
