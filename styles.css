@@ -1,14 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 body {
-  background-color: #ededed;
+  background-color: whitesmoke;
   font-family: "Roboto", sans-serif;
 
 }
-
+span{
+  color: #007aff;
+}
 .navbar {
-  background-color: #212529;
-  color: white;
+  background-color: white;
+  color: whitesmoke;
 }
 .btn-close-white {
   color: #fff;
@@ -144,6 +146,7 @@ body {
   margin-top: 20px;
   background-color: #ffffffd8;
   border-radius: 20px;
+  /* border-style:  1px dashed green; */
 }
 .about2-main {
   margin-top: 20px;
@@ -188,8 +191,9 @@ body {
 }
 
 .btn{
-  background-color: #212529;
+  background-color: #007aff;
   border-radius: 12px;
+  border: none;
 }
 
 
@@ -216,13 +220,13 @@ body {
     width: 95%;
     height: 52px;
     border-radius: 60px;
-    background-color: #212529;
+    background-color: whitesmoke;
     z-index: 1000;
 }
 
- /* .nav :hover{
+ .nav :hover{
   color: #7e7e7e;
-} */
+}
 
   .footer-nav-mobile .nav {
     display: flex;
@@ -236,7 +240,7 @@ body {
   }
 
   .footer-nav-mobile .nav-link {
-    color: hsl(0, 100%, 100%);
+    color: #007aff;
     text-decoration: none;
     display: flex;
     flex-direction: column;
@@ -276,72 +280,6 @@ body {
   margin-bottom: 40px;
 }
 .swiper-pagination-bullet-active {
-  opacity: var(--swiper-pagination-bullet-opacity, 1);
-  background: black;
+  /* opacity: var(--swiper-pagination-bullet-opacity, 1); */
+  color: #28a745;
 }
-
-
-
-
-
-
-::-webkit-scrollbar {
-  width: 1px; /* Width of the scrollbar */
-  border-radius: 30px;
-}
-
-::-webkit-scrollbar-track {
-  background: #f1f1f1; /* Color of the track */
-}
-
-::-webkit-scrollbar-thumb {
-    background-color: #212529;
-  border-radius: 5px; /* Roundness of the handle */
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background-color: #212529;
-}
-
-/* Firefox */
-html {
-  scrollbar-width: thin;
-  scrollbar-color: #212529 #f1f1f1;
-}
-
-/* Mobile view */
-@media (max-width: 767px) {
-  ::-webkit-scrollbar {
-      width: 1px; /* Adjust the width for mobile view */
-  }
-
-  html {
-      scrollbar-width: thin;
-      scrollbar-color: #212529 #f1f1f1;
-  }
-}
-
-
-#back-to-top {
-  position: fixed;
-  bottom: 95px;
-  right: 20px;
-  display: none;
-  font-size: 24px;
-  background-color: #212529;
-  /* Yellow */
-  color: #ffffff;
-  /* Dark grey */
-  border: none;
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  cursor: pointer;
-  transition: transform 0.3s ease, background-color 0.3s ease;
-  z-index: 999;
-}
-
-#back-to-top:hover {
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-}
-
